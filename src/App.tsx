@@ -5,6 +5,7 @@ import Completadas from "./pages/Completadas";
 import Formulario from "./pages/Formulario";
 import TaskDetail from "./pages/TaskDetail";
 import {LoginPage} from "./pages/LoginPage";
+import { UserProfile } from "./pages/UserProfile";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/task/:id" element={<TaskDetail />} />
             <Route path="/add" element={<Formulario />} />
             <Route path="/done" element={<Completadas />} />
+            <Route path="/profile" element={<UserProfile />} />
           </Route>
         </Routes>
       </BrowserRouter>
