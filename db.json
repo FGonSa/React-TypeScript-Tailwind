@@ -1,0 +1,154 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Franky",
+      "email": "frank@tasker.com",
+      "avatar": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": "2",
+      "name": "Sosio",
+      "email": "sosio@tasker.com",
+      "avatar": "https://i.pravatar.cc/150?img=2"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Aprender Zustand",
+      "completed": false,
+      "priority": "Alta",
+      "isFavorite": true,
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Configurar Axios",
+      "completed": true,
+      "priority": "Media",
+      "isFavorite": true,
+      "userId": "1"
+    },
+    {
+      "id": "1771175319271",
+      "title": "SOSIO2",
+      "completed": false,
+      "priority": "Media",
+      "isFavorite": true,
+      "userId": "1"
+    },
+    {
+      "id": "1771183484157",
+      "title": "Mejorar SpringBoot",
+      "completed": false,
+      "priority": "Media",
+      "isFavorite": false,
+      "userId": "1"
+    },
+    {
+      "id": "1771192103555",
+      "title": "Pegar al Sosio",
+      "completed": false,
+      "priority": "Alta",
+      "isFavorite": true,
+      "userId": "1"
+    },
+    {
+      "id": "1771194864291",
+      "title": "REACT",
+      "completed": false,
+      "priority": "Baja",
+      "isFavorite": true,
+      "userId": "1"
+    },
+    {
+      "id": "1771321306105",
+      "title": "Tetiko",
+      "completed": true,
+      "priority": "Media",
+      "isFavorite": true,
+      "userId": "1"
+    },
+    {
+      "id": "1771323777708",
+      "title": "Pepsi",
+      "completed": false,
+      "priority": "Alta",
+      "isFavorite": false,
+      "userId": "1"
+    },
+    {
+      "id": "1771323887854",
+      "title": "Dragon",
+      "completed": false,
+      "priority": "Baja",
+      "isFavorite": false,
+      "userId": "1"
+    },
+    {
+      "id": "1771333462437",
+      "title": "Piwi",
+      "completed": false,
+      "priority": "Baja",
+      "isFavorite": false,
+      "userId": "1"
+    },
+    {
+      "id": "1771333476409",
+      "title": "IruVenao",
+      "completed": false,
+      "priority": "Baja",
+      "isFavorite": false,
+      "userId": "1"
+    },
+    {
+      "id": "1771333512110",
+      "title": "rapsus",
+      "completed": false,
+      "priority": "Baja",
+      "isFavorite": false,
+      "userId": "1"
+    },
+    {
+      "id": "1771333745803",
+      "title": "Piwita",
+      "completed": false,
+      "priority": "Baja",
+      "isFavorite": false,
+      "userId": "2"
+    },
+    {
+      "id": "1771333761417",
+      "title": "Bleach",
+      "completed": false,
+      "priority": "Baja",
+      "isFavorite": true,
+      "userId": "2"
+    },
+    {
+      "id": "1771334530639",
+      "title": "Gusanito",
+      "completed": false,
+      "priority": "Alta",
+      "isFavorite": true,
+      "userId": "2"
+    },
+    {
+      "id": "1771334625473",
+      "title": "Kilgore",
+      "completed": false,
+      "priority": "Baja",
+      "isFavorite": false,
+      "userId": "2"
+    },
+    {
+      "id": "1771334759010",
+      "title": "Dragonk",
+      "completed": false,
+      "priority": "Baja",
+      "isFavorite": false,
+      "userId": "1"
+    }
+  ]
+}

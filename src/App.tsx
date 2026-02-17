@@ -1,16 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import Layout from "./pages/Layout";
+import Completadas from "./pages/Completadas";
+import Formulario from "./pages/Formulario";
+import TaskDetail from "./pages/TaskDetail";
+import {LoginPage} from "./pages/LoginPage";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1 className="text-3xl font-bold text-center mt-10 text-red-800">React + TypeScript + Tailwind CSS</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route element={<Layout />}>
+            {/* Rutas Públicas */}
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/" element={<HomePage />} index />
+            {/* Rutas Privadas */}
+            <Route path="/task/:id" element={<TaskDetail />} />
+            <Route path="/add" element={<Formulario />} />
+            <Route path="/done" element={<Completadas />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
